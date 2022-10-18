@@ -5,6 +5,12 @@ public class studentInputTemplate {
     private String email;
     private String course;
 
+    public studentInputTemplate() {
+        this.name = "John";
+        this.email = "g00000000@atu.ie";
+        this.course = "Pantry";
+    }
+
     public studentInputTemplate(String name, String email, String course) {
         this.name = name;
         this.email = email;
