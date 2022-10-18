@@ -8,6 +8,6 @@ public class studentApp {
         System.out.println("Please enter the email of the first student: ");
         System.out.println("Please enter the course of the first student: ");
         Scanner input = new Scanner(System.in);
-        
+
     }
 }
