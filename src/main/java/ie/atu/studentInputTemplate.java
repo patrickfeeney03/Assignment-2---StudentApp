@@ -17,6 +17,10 @@ public class studentInputTemplate {
         this.course = course;
     }
 
+    public studentInputTemplate(String name) {
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }
