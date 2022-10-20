@@ -1,7 +1,7 @@
 package ie.atu;
 
 public class studentInputTemplate {
-    private String name;
+    private String name; //
     private String email;
     private String course;
 
@@ -19,6 +19,9 @@ public class studentInputTemplate {
 
     public studentInputTemplate(String name) {
         this.name = name;
+        this.email = "g00000000@atu.ie";
+        this.course = "Pantry";
+
     }
 
     public String getName() {
